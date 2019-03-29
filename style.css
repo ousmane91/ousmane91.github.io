@@ -1,0 +1,314 @@
+/*CORPS DE LA PAGE*/
+body
+{
+  background-color: #f2f1e7;
+}
+
+/*HEADER*/
+.nav
+{
+  background-color: #f2f1e7;
+
+}
+
+.nav-link
+{
+  color: #915b4a;
+  font-family:'munsonregular';
+}
+
+.nav-link:hover
+{
+  color:  #5c4d4d;
+}
+
+/*LE JUMBOTRON*/
+
+.jumbotron
+{
+  background-image: url(images/image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  box-shadow: 10px 10px 10px 2px grey;
+}
+
+h1
+{
+  color: #f2f1e7;
+  font-size: 50px;
+  font-family:'munsonregular';
+}
+
+#one
+{
+  color:#915b4a;
+  font-size: 20px;
+  text-align: left;
+  font-family:'munsonregular';
+}
+
+.btn
+{
+  background-color:#915b4a;
+  color:#f2f1e7;
+  font-family:'munsonregular';
+}
+
+/*LE SEPARATEUR*/
+.d-block
+{
+  background-color: #5c4d4d;
+
+}
+.section
+{
+  background-color: #f2f1e7;
+}
+
+h2
+{
+  text-transform: uppercase;
+  font-family:'munsonregular';
+}
+
+/*PARTIE A PROPOS*/
+.textabout
+{
+  font-size: 15px;
+  text-align: center;
+  text-align: justify;
+  border: 3px solid #f2f1e7;
+  margin-bottom: 10px;
+  padding: 15px 15px 15px 15px;
+  box-shadow:  10px 10px 10px  grey;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family:'happy_times_at_the_ikobRg';
+  font-size:  18px;
+}
+
+.me
+{
+  /*display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  height: 350px;*/
+  margin-bottom:  50px;
+  margin-top: -10px;
+  box-shadow: 8px 12px 18px #f2f1e7;
+}
+
+/*PARTIE MON PARCOURS*/
+/*MES ETUDES ET XP PRO*/
+
+h3
+{
+  color: #5c4d4d;
+  font-family:'munsonregular';
+
+}
+.stude
+{
+
+  box-shadow:8px 12px 40px #5c4d4d;
+  text-align: center;
+}
+
+.graduateicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrowicon
+{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brainicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tvicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*DESIGN BARRE DE POURCENTAGE*/
+.html
+{
+  background-color: red;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.css
+{
+  background-color:  #609bd6 ;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.wordpress
+{
+  background-color:  #2c4864;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.bootstrap
+{
+  background-color: #563d7c;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.adobexd
+{
+  background-color: #2d001d;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.mwebsite
+{
+  background-color:  #d8d074 ;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+.mlandingpage
+{
+  background-color:  #acda77 ;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+/*FOOTER*/
+
+#contact
+{
+  background-color:#5c4d4d;
+  box-shadow:8px 12px 18px #5c4d4d;
+  text-align: center;
+}
+
+#contact p
+{
+  color:#f2f1e7;
+}
+
+#contact a
+{
+  color:#f2f1e7;
+}
+
+#contact a:hover
+{
+  color: orange;
+}
+
+.mailicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.instaicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.telicon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer p
+{
+  color: #f2f1e7;
+}
+/*POLICES GENERAL*/
+
+@font-face {
+  font-family: 'happy_times_at_the_ikobRg';
+  src: url('fonts/happy-times-at-the-ikob-webfont.eot');
+  src: url('fonts/happy-times-at-the-ikob-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/happy-times-at-the-ikob-webfont.woff2') format('woff2'),
+  url('fonts/happy-times-at-the-ikob-webfont.woff') format('woff'),
+  url('fonts/happy-times-at-the-ikob-webfont.ttf') format('truetype'),
+  url('fonts/happy-times-at-the-ikob-webfont.svg#happy_times_at_the_ikobRg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'munsonregular';
+  src: url('munson_roman-webfont.eot');
+  src: url('munson_roman-webfont.eot?#iefix') format('embedded-opentype'),
+  url('munson_roman-webfont.woff2') format('woff2'),
+  url('munson_roman-webfont.woff') format('woff'),
+  url('munson_roman-webfont.ttf') format('truetype'),
+  url('munson_roman-webfont.svg#munsonregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/*GENERAL*/
+p
+{
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+  color:  #5c4d4d;
+}
+
+a
+{
+  color: #915b4a;
+  font-family: 'happy_times_at_the_ikobRg';
+  font-size: 18px;
+}
+
+a:hover
+{
+  color:  #5c4d4d;
+}
