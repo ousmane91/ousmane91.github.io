@@ -35,14 +35,14 @@ body
 
 h1
 {
-  color: #f2f1e7;
+  color: #373937;
   font-size: 50px;
   font-family:'munsonregular';
 }
 
 #one
 {
-  color:#f2f1e7;
+  color:#373937;
   font-size: 20px;
   text-align: left;
   font-family:'munsonregular';
@@ -262,9 +262,26 @@ h3
   margin-right: auto;
 }
 
+.giticon
+{
+  padding: 15px 15px 15px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 footer p
 {
   color: #f2f1e7;
+}
+
+.menufooter
+{
+  color: #f2f1e7;
+}
+
+.menufooter:hover
+{
+  color: orange;
 }
 /*POLICES GENERAL*/
 
